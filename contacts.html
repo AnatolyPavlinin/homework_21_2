@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>МАГАЗИН</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="row h-100">
+
+  <!-- Боковая панель -->
+  <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-none d-md-block bg-dark sidebar vh-100 text-bg-primary">
+    <h4 class="ms-5 mt-5 border-bottom pb-2">Меню</h4>
+    <ul class="nav flex-column ms-5">
+      <li class="nav-item"><a class="nav-link active text-white" href="#">Главная</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Категория</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Заказы</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Контакты</a></li>
+    </ul>
+    <div class="dropdown mb-3 fixed-bottom">
+      <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Пользователь
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href="#">Профиль</a></li>
+        <li><a class="dropdown-item" href="#">Выход</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="col-10 text-center mt-5">
+    <h3>Контакты</h3>
+      <div class="row">
+  <!-- Левая часть: Форма обратной связи -->
+  <div class="col-md-6">
+    <h2 class="mb-4">Свяжитесь с нами</h2>
+
+    <!-- Форма -->
+    <form>
+      <!-- Поле "Имя" -->
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Имя" required>
+      </div>
+
+      <!-- Поле "Почта" -->
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Почта" required>
+      </div>
+
+      <!-- Поле "Сообщение" -->
+      <div class="mb-3">
+        <textarea class="form-control" rows="4" placeholder="Сообщение" required></textarea>
+      </div>
+
+      <!-- Кнопка "Отправить" -->
+      <button type="submit" class="btn btn-primary">Отправить</button>
+    </form>
+  </div>
+
+  <!-- Правая часть: Контактная информация -->
+  <div class="col-md-6">
+    <h2 class="mb-4">Наши контакты</h2>
+
+    <!-- Латинский текст-заполнитель -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p>While these feedback styles cannot be styled with CSS, you can still customize the feedback text through Javascript.</p>
+  </div>
+</div>
+  </div>
+</div>
+
+</body>
+</html>
